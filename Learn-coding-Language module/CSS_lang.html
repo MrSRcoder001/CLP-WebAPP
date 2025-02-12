@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS LANGUAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CPL_Web_Design.css">
+</head>
+
+<body style="background-color: rgba(176, 176, 176, 0.608);">
+    <div class="javapage">
+        <div class="subject_menu">
+            <div class="search">
+                <input type="search" class="searchfield" placeholder="Search-Topic">
+            </div>
+            <br>
+            <p>1. INTRODUCTION</p>
+            <ul class="headlist" style="list-style-type:square">
+                <a href="#section1.1" style="cursor: pointer;">
+                    <li>CSS Introduction</li>
+                </a>
+                <a href="#section1.2" style="cursor: pointer;">
+                    <li>Your first CSS website</li>
+                </a>
+                <a href="#section1.3" style="cursor: pointer;">
+                    <li>How CSS works?</li>
+                </a>
+                <a href="#section1.4" style="cursor: pointer;">
+                    <li>Syntax of CSS</li>
+                </a>
+                <a href="#section1.5" style="cursor: pointer;">
+                    <li>Ways to add CSS</li>
+                </a>
+                <a href="#section1.6" style="cursor: pointer;">
+                    <li>CSS Selectors</li>
+                </a>
+                <a href="#section1.7" style="cursor: pointer;">
+                    <li>CSS Comments</li>
+                </a>
+
+
+
+                <li>CSS Specificity
+
+                    <hr>
+                    <br>
+                    <p> Iteration Statements
+                    </p>
+                <li> for Loop</li>
+                <li> while Loop
+                </li>
+                <li> do-while Loop</li>
+                <li>Nested Loops
+                </li>
+                <li> break/continue Statement</li>
+                <hr>
+                <br>
+                <p>String Basics</p>
+                <li>Escape Characters
+                <li>String Methods</li>
+                <hr>
+                <br>
+                <p>Arrays</p>
+                <li>Array Basics
+                <li>Multidimensional Arrays</li>
+                <hr>
+                <br>
+                <p>Java Methods</p>
+                <li>Java Methods
+                <li>Method Overloading
+                <li>Recursive Functions</li>
+                <hr>
+                <br>
+                <p>Java OOPS</p>
+                <li>Object & Class
+                <li>Inheritance
+                <li>Polymorphism
+                <li>Abstraction
+                <li>Encapsulation</li>
+
+                <hr>
+                <br>
+                <p>File Handling</p>
+                <li>File Creation
+                <li>Files Read/Write
+                <li>File Deletion</li>
+                <hr>
+                <br>
+                <p>Advanced Topics</p>
+                <li>Exception Handling
+                <li>Regex</li><br>
+                <hr>
+                <hr><br>
+                <p><i></i><a href="#">VIDEO LECTURE`S</a></p>
+            </ul>
+        </div>
+        <div class="subinfo">
+            <section id="section1.1" style="line-height: 25px;line-break: 20px;">
+                <h2>INTRODUCTION CSS</h2><br>
+                - <b>Information & History</b><br>--->
+                <br>-
+                Let's start this journey of learning CSS together.<br><br>
+
+                <b></b>What is CSS?</b> <br>-->
+                CSS stands for Cascading Style Sheets.<br>- It is a stylesheet language that is used to describe the
+                visual
+                presentation of a web page written in HTML (Hypertext Markup Language).<br>-
+
+                HTML creates the structure of the page, while CSS adds styling to that structure.<br>- This tutorial
+                assumes
+                that you have prior knowledge of HTML.<br>- If that's not the case, you can follow the HTML tutorial
+                first.<br><br>
+
+                <b>Why the word "cascade"?</b>-->
+                The term "cascade" refers to the priority scheme determining which CSS rules are applied when multiple
+                rules target an element.<br>- This scheme takes into account specificity and inheritance, ensuring that
+                the
+                most specific and latest rules are applied.<br><br>
+
+                <b>Why use CSS?</b>-->
+                CSS is used to provide styling to HTML elements, making web pages visually appealing and
+                user-friendly.<br>-
+
+                Analogy to Understand CSS<br>-
+                Imagine reading a book with only plain text.<br>- It's quite dull, isn't it? Now picture a book enriched
+                with
+                different colors, fonts, and styles. That's what CSS does to a webpage.<br><br>
+
+                <b>How does CSS work?</b><br>
+                CSS operates by selecting HTML elements and applying styles to them. <br>- Styles dictate the appearance
+                of
+                elements on a webpage.<br>- You can target HTML elements, classes, or IDs, defining properties like
+                colors,
+                fonts, margins, etc.<br>-
+
+                /* Example of a CSS rule */<br>-
+                selector {<br>
+                property: value;<br>
+                }<br>
+                ** Quick Follow-Up Task:<br>-
+                Right-click on the screen and select "Inspect" or press (Ctrl + Shift + C).<br>-
+                Click on the arrow icon in the top-left corner of the inspection pane.<br>-
+                Select elements on the page to toggle the CSS rules.<br><br>
+                <b>Key Features of CSS:</b><br>-
+                Styles and layouts of web pages.<br>-
+                Works alongside HTML and XML documents.<br>-
+                Enables responsive design for different screen sizes.<br>-
+                Supports interactive effects like hover states and animations.<br>-
+                CSS is now modularized, with ongoing updates rather than version numbers.<br>-
+                Allows reusability of the same rules across multiple HTML documents.<br>-
+                A Bit of History
+                CSS was created by Håkon Wium Lie to enhance the visual aspects of websites. Initially, websites were
+                mainly used by researchers and lacked visual appeal.<br>- As websites became more widespread, the need
+                for
+                better design grew.<br><br>
+
+                <b>Important References:</b><br>-
+                For beginners, start with the HTML tutorial.<br>-
+                For more insights, check out CSS on Wikipedia.<br>-
+                For advanced users, the W3C CSS Specifications is a valuable resource.<br>
+            </section>
+            <hr><br>
+            <section id="section1.2">
+                <p>
+                <h2>Your first CSS website</h2><br>-->
+                In this tutorial, we will focus on creating our first CSS website.<br>-
+                **We will divide the tutorial into the following parts:<br>-
+
+                Setting up the environment.<br>-
+                Creating an HTML page.<br>-
+                Adding CSS to HTML.<br><br>
+                <b>Setting up the Environment</b><br>-
+                Installing VS Code<br>-
+                Go to Google using your preferred browser.<br>-
+                Type Visual Studio Code download in the search bar.<br>-
+                Click on download and follow the installation instructions for your OS.<br>-
+                Here's a quick video showing the VS Code installation process:on YouTube<br>**
+
+
+                Installing the Live Server Extension<br>-
+                We will also install the Live Server extension in Visual Studio Code to enable live reloading of
+                pages.<br>-
+
+                The Live Server extension launches a local development server and reloads the page live as you make
+                changes.<br><br>
+
+
+                ** Creating an HTML Page<br>-
+                If you're not comfortable with HTML, you can start by following this HTML Tutorial.<br>-
+
+                Assuming you have some knowledge of HTML, open VS Code and create a new file named `index.html`.<br>**
+
+                Creating an HTML file<br>-
+
+                After creating the HTML file, type "!" and press enter. <br>- This will generate the default HTML
+                boilerplate.<br>-
+
+
+                The generated code should look something like this after changing the title and adding some content to
+                the body:<br>-
+                Adding CSS to HTML<br>-
+                Now that we've set up the environment and created an HTML page, let's add some CSS to style it.<br>-
+                Inside
+                the head tag, add the following code:<br>-
+
+                style><br>-
+                body {<br>-
+                text-align: center;<br>-
+                color: white;<br>-
+                background-color: purple;<br>-
+                }<br>-
+                /style><br>-
+                You've successfully begun your journey into the world of CSS! As you follow these tutorials, you'll gain
+                a better understanding of various CSS properties.<br>-
+
+
+                </p>
+            </section>
+            <hr><br>
+            <section id="section1.3">
+                <p>
+                <h2>CSS Working </h2><br>
+
+                <b>How CSS works?</b><br>-
+                We wrote our first CSS style but still, things wouldn’t be very much clear.<br>- Let’s look at how CSS
+                works
+                on the DOM model.<br><br>
+
+                <b>How CSS Works?</b><br>-
+                The following steps will help us understand more about CSS working :<br>-->
+
+                The user types the URL and clicks enter.<br>-
+                The browser makes a fetch request to the server.<br>-
+                HTML is fetched from the server.<br>-
+                HTML is converted into a DOM. In the DOM, each tag is considered a node.<br>-
+                The browser fetches all the related files and assets that are linked to that HTML, such as external CSS,
+                fonts, images, etc.<br>-
+                The browser then parses the CSS and groups it based on the selectors, which can be tags.<br>-
+                Each CSS is attached to its respective node. In this phase, CSS gets attached to its respective
+                node.<br>-
+                This is called a render tree.<br>-
+                The render tree is the well-structured, well-arranged DOM node that will appear on the screen.<br>-
+                The well-structured, custom-designed website is presented on the screen. This is called
+                painting.<br><br>
+
+
+
+
+                ** Now, there arises a question: <br><br>
+
+                <b>What is a DOM?</b><br>-->
+                A DOM is like a tree structure representation of all the tags and elements on the page.<br>- Each part
+                of a
+                web page, like headings, paragraphs, images, buttons, etc., will be part of the tree.<br>-
+
+                You can think of it as a blueprint for a web page that web browsers use to understand and display web
+                content.<br>-
+
+                Consider the below example,<br>-
+
+
+
+                The tags are converted into nodes. Each node establishes a parent-child relationship between each
+                other.<br>-
+                To be precise, Document Object Model(DOM) is a sort of API that represents and interacts with HTML
+                documents.<br><br>
+
+
+
+                <b>Some helpful References:</b>
+                I will recommend going through, How HTML Works
+                MDN will be a great source to get some more insights.
+                <br><br>
+
+                </p>
+            </section>
+            <hr><br>
+            <section id="section1.4">
+                <p>
+                <h2>Syntax of CSS</h2><br>--><br>
+
+
+                - CSS follows a rule-based structure.<br>- Each rule consists of a selector and a declaration block.
+                <br>-Selectors
+                pick the HTML elements, while declaration blocks contain pairs of properties and values.<br><br>
+
+                <b>The general syntax for writing CSS.</b><br>-
+
+                selector {<br>-
+                property: value;<br>-
+                }<br>
+                ** Note: Semi-colon (;) at the end of each new property and property value is IMPORTANT.<br><br>
+
+                <b>For example:</b><br>
+
+                h2{<br>-
+                color: blue;<br>-
+                }<br>-
+                In the example:<br>-
+
+                h2: h2 is the selector.<br>-
+                color: It's the property.<br>-
+                blue: The property value.<br>-
+
+
+                Within the declaration block, there can be multiple pairs of properties and values.<br><br>
+
+                <b>Consider the example:</b><br>-
+
+                button{<br>-
+                color: white;<br>-
+                background-color: black;<br>-
+                border: transparent;<br>-
+                border-radius: 5px;<br>-
+                }<br>-
+                Here, 'button' is the selector, and there are multiple pairs of properties and values. Each pair is
+                separated by a semicolon ";".<br><br>
+                </p>
+            </section><br>
+            <hr>
+            <section id="section1.5">
+                <p>
+                <h2> Ways to add CSS</h2><br>
+
+                <b>There are three different ways to add CSS to an HTML page, which are:
+                </b><br>-
+                Inline CSS<br>-
+                Internal CSS<br>-
+                External CSS<br><br>
+                <b>Inline CSS</b><br>-
+                Inline CSS is used to add custom properties to specific elements. <br>- The added style will only
+                reflect on that particular element only.<br>-
+
+                To use inline CSS, Insert the "style" attribute within the HTML element's opening tag.<br>-
+
+                Consider the code snippet:<br>-
+
+                <b>
+                    <'h1> style="color: purple;">I'm harry <' /h1><br>-
+                            <'h2>I'm CodeWithHarry<' /h2>
+                </b><br>-
+
+
+                Here, the inline style of color: purple is attached to only the h1 tag.<br>-
+
+                ** Note: The downside of using inline CSS is, that once the project complexity increases, it will become
+                difficult to manage the styles of each and individual elements.<br>
+                <br>
+                <b>Internal CSS</b><br>-
+                Internal CSS is used to apply custom style to the multiple elements on the same page.<br>- The style can
+                be
+                used throughout the HTML page.<br>-
+
+                Internal CSS is defined in a style block, which will be inside the head section.<br>-
+                Consider the code snippet:<br>-
+                <b>
+                    <'head><br>-
+                        <'style><br>-
+                            p {<br>-
+                            color: red;<br>-
+                            }<br>-
+                            <' /style><br>-
+                                <' /head><br>-
+
+                                    <'body><br>-
+                                        <'h1>CodeWithHarry<' /h1><br>-
+                                                <'p>I'm harry, from CodeWithHarry<' /p><br>-
+                                                        <'p>I'm a Developer and founder of CodeWithHarry.com<' /p><br>-
+                                                                <' /body><br>-
+                </b>
+                Here, in the style block, selector p will target all p
+                tags and assign them color:red.<br>**
+
+                Note:<br>- The <'style>
+                    block should always be in the <'head> section.<br><br>
+                        <b> External CSS</b><br>- External CSS works similarly to
+                        internal CSS but with a twist. <br>- Instead of
+                        adding the styles within the HTML file,
+                        we create a separate file with .css extension.
+                        This file will hold all the styling details.<br>-
+                        Then,
+                        we link this file to the HTML page,
+                        giving it the instructions on how to look.<br>- The
+                        following video will explain,
+                        how to link a CSS file to HTML.<br>- There is a new
+                        <'link> tag in the head section,
+                            and this link tag has rel and href properties.<br><br>
+                            **The following points will explain each keyword's
+                            meaning:<br>-
+
+
+                            <'link>: This tag is used to create links between
+                                different resources,
+                                like stylesheets,
+                                fonts,
+                                and more.<br>- In our case,
+                                we are using a link tag to link the CSS file
+                                with the HTML file. rel="stylesheet": rel stands
+                                for relationship,
+                                this defines the type of relationship between
+                                the HTML document and the linked resource.<br>- When
+                                set to "stylesheet",
+                                it specifies that the linked resource is a
+                                stylesheet that will be used to style the HTML
+                                content. href="style.css" : The href attribute
+                                stands for "hypertext reference."<br>- It specifies
+                                the path or URL to the external resource we want
+                                to link. In this case,
+                                it's the path to the external CSS file called
+                                "style.css".<br><br>
+                                ** Consider the code snippets:<br>-
+                                <b>
+                                    <'head><br>-
+                                        <'title>Mr sattu<' /title><br>-
+                                                <'link rel="stylesheet" href="style.css"><br>-
+                                                    <' /head><br>-
+
+                                                        <'body><br>-
+                                                            <'p>I'm harry, from CodeWithHarry<' /p><br>-
+                                                                    <'p>I'm a Developer and founder of
+                                                                        CodeWithHarry.com<' /p><br>-
+                                                                            <' /body><br>-
+
+                                                                                <' /html><br><br>-
+                                                                                    p {<br>-
+                                                                                    color: red;<br>-
+                                                                                    }<br>-
+                                </b>
+                                These code snippets will generate this page: This approach enables to use of the same
+                                CSS to multiple
+                                HTML files,
+                                wherever the same custom style is required. <br>- This is helpful when we have to
+                                maintain consistency on our web pages and
+                                want to use the same CSS styles across multiple pages.<br>** Note:<br> - The precedence
+                                is Inline CSS>Internal CSS>External CSS.<br>- If
+                                we define the same property with different property values in three different ways,
+                                the element will have the property value of inline CSS.<br>- Feel free to explore the
+                                CSS Wikipedia page to gain more
+                                insights about CSS working.<br><br>
+            </section><br>
+            <hr><br>
+            <section id="section1.6">
+                <p>
+                <h2>CSS Selectors</h2><br>-->
+
+                <b>What are CSS Selectors?</b><br>-
+                CSS selectors allow us to choose specific elements and apply styles to them.<br>- Suppose we want to add
+                a
+                custom style to only a specific tag(s).<br>- There, We can make use of CSS selector.<br>-
+
+                <b>** There are different types of CSS selectors, which are as follows:</b><br>-
+
+                Universal Selector<br>-
+                Element Selector<br>-
+                Id Selector<br>-
+                Class Selector<br>-
+                Group Selector<br>-
+                <br><br>
+                ** Let's look into these selectors one by one<br><br>
+
+                <b> Universal Selector</b><br>-
+                Universal selector represented by "*" targets all the HTML elements on the page.<br>-
+
+                The syntax of Universal Selector is as follows:<br>-
+                <b>
+                    * {<br>-
+                    property : value;<br>-
+                    }<br><br>
+                </b>
+
+                ** Consider the code demp:<br>-
+                <b>
+                    <'html><br>-
+
+                        <'head><br>-
+                            <'style><br>-
+                                * {<br>-
+                                color: purple;<br>-
+                                text-align: center;<br>-
+                                }<br>-
+                                <' /style><br>-
+                                    <' /head><br><br>
+
+                                        <'body><br>-
+                                            <'p>Welcome to <' /p><br>-
+                                                    <'h1>CodeWithHarry<' /h1><br>-
+                                                            <' /body><br>
+
+                                                                <' /html><br>-
+                </b>
+
+                Notice, Irrespective of the tag, the style will be applied to all the elements and tags.
+                <br><br>
+                <b>Element Selector (Type Selector)</b><br>-
+                The element selector selects the target element based on the specific type.<br>- Suppose you want to
+                underline all the <p> tags; in this case, the element selector will be the best choice.<br>-
+
+                    The syntax of Element Selector is as follows:<br>-
+                    <b>
+                        p {<br>-
+                        property : value;<br>-
+                        }<br>-</b>
+                    A selector can be any HTML tag. Here, we have considered the p tag.<br><br>
+
+                    ** Consider the code snippet:<br>-
+                    <b>
+                        <'html><br>-
+
+                            <'head><br>-
+                                <'title>CSS<' /title><br>-
+                                        <'style><br>-
+                                            p {<br>-
+                                            text-decoration: underline;<br>-
+                                            }<br>-
+                                            <' /style><br>-
+                                                <' /head><br><br>-
+
+                                                    <'body><br>-
+                                                        <'h1>CodeWithHarry<' /h1><br>-
+                                                                <'h2>we offer: <' /h2><br>-
+                                                                        <'p>Python Tutorials - 100 Days of Code<' /p>
+                                                                                <br>-
+                                                                                <'p>Ultimate JavaScript Course<' /p>
+                                                                                        <br>-
+                                                                                        <'p>React JS Tutorials For
+                                                                                            Beginners<' /p><br>-
+                                                                                                <' /body><br>-
+
+                                                                                                    <' /html>
+                    </b><br><br>
+
+
+                    ** Note: Element selector is not recommended as the same tag can be used multiple times in the
+                    document. So, overlapping rules can occur in the stylesheet.<br><br>
+
+                    <b>ID Selector</b><br>-
+                    The ID selector targets the elements based on the specific ID.<br>- It is written with the hash “#”
+                    character followed by the ID name in the style sheet.<br><br>
+
+                    ** The syntax of ID Selector is as follows:<br>
+                    <b>
+                        #ID {<br>-
+                        property : value;<br>-
+                        }<br>-
+                    </b><br>-
+
+                    Consider the code snippet:<br>-
+                    <b>
+                        <'html><br>-
+
+                            <'head><br>-
+                                <'style><br>-
+                                    #title {<br>-
+                                    text-align: center;<br>-
+                                    color: red;<br>-
+                                    }<br>-
+                                    <' /style><br>-
+                                        <' /head><br>-
+
+                                            <'body><br>-
+                                                <'h1 id="title">CodeWithHarry<' /h1><br>-
+                                                        <'p>I'm a Developer and the founder of CodeWithHarry.com<' /p>
+                                                                <br>-
+                                                                <' /body><br>-
+
+                                                                    <' /html><br>
+                    </b>-
+                    In the style block, the selector #title, will only target the HTML element having an ID of
+                    "title".<br>-
+
+                    Notice, how the property color: red is only applied to
+                    <'h1> tag.<br><br>
+
+                        <b>Class Selector</b> <br>-
+                        The class selector does the same job as the id selector, a class selector helps group various
+                        types
+                        of elements.<br>- Suppose, we want to give a custom style to a specific group of elements.<br>-
+                        In this case,
+                        the class selector is the best option.<br>-
+
+                        It is written with the period “.” character followed by the class name in the style
+                        sheet.<br><br>**
+
+                        The syntax of Class Selector is as follows:<br>-
+                        <b>
+                            .class {<br>-
+                            property : value;<br>-
+                            }</b><br>-
+                        Consider the code snippet:<br>-
+
+                        <'html><br>-
+
+                            <'head><br>-
+                                <'title>CSS<' /title><br>-
+                                        <'style><br>-
+                                            .red {<br>-
+                                            color: red;<br>-
+                                            }<br>-
+                                            <' /style><br>-
+                                                <' /head><br>-
+
+                                                    <'body><br>-
+                                                        <'p>This is simple p tag<' /p><br>-
+                                                                <'p class="red">This p tag has class red<' /p><br>-
+                                                                        <'p>This is simple p tag<' /p><br>-
+                                                                                <'p class="red">This p tag has class red
+                                                                                    <' /p><br>-
+                                                                                        <' /body><br>-
+
+                                                                                            <' /html></b>
+                                                                                                <br>-
+                                                                                                In the above code
+                                                                                                snippet, the color:red
+                                                                                                will only be applied to
+                                                                                                the element having class
+                                                                                                'red'.<br>-
+
+                                                                                                Note: The class selector
+                                                                                                helps in grouping two or
+                                                                                                more elements.<br><br>
+
+                                                                                                <b>Group
+                                                                                                    Selector</b><br>-
+                                                                                                The group selector is
+                                                                                                used to minimise the
+                                                                                                code. Commas "," are
+                                                                                                used to separate each
+                                                                                                selector in a
+                                                                                                grouping. This reduces
+                                                                                                the number of lines of
+                                                                                                code.<br>- The code also
+                                                                                                looks clean.<br>-
+
+                                                                                                The syntax of Group
+                                                                                                Selector is as
+                                                                                                follows:<br>-
+                                                                                                <b>
+                                                                                                    div, p, a {<br>-
+                                                                                                    property :
+                                                                                                    value;<br>-
+                                                                                                    }</b><br>-
+                                                                                                Consider the code
+                                                                                                snippet:<br>-
+                                                                                                <b><br>-
+                                                                                                    <'html><br>-
+
+                                                                                                        <'head><br>-
+                                                                                                            <'title>CSS
+                                                                                                                <'
+                                                                                                                    /title>
+                                                                                                                    <br>-
+                                                                                                                    <'style>
+                                                                                                                        <br>-
+                                                                                                                        h1
+                                                                                                                        {<br>-
+                                                                                                                        color:
+                                                                                                                        red;<br>-
+                                                                                                                        }<br><br>-
+
+                                                                                                                        p,<br>-
+                                                                                                                        a
+                                                                                                                        {<br>-
+                                                                                                                        color:
+                                                                                                                        purple;<br>-
+                                                                                                                        }<br>-
+                                                                                                                        <'
+                                                                                                                            /style>
+                                                                                                                            <br>-
+                                                                                                                            <'
+                                                                                                                                /head>
+                                                                                                                                <br>-
+
+                                                                                                                                <'body>
+                                                                                                                                    <br>-
+                                                                                                                                    <'h1>
+                                                                                                                                        CodeWithHarry
+                                                                                                                                        <'
+                                                                                                                                            /h1>
+                                                                                                                                            <br>-
+                                                                                                                                            <'p>This
+                                                                                                                                                is
+                                                                                                                                                the
+                                                                                                                                                p
+                                                                                                                                                tag
+                                                                                                                                                <'
+                                                                                                                                                    /p>
+                                                                                                                                                    <br>-
+                                                                                                                                                    <'a
+                                                                                                                                                        href="#">
+                                                                                                                                                        This
+                                                                                                                                                        is
+                                                                                                                                                        the
+                                                                                                                                                        anchor
+                                                                                                                                                        (a)
+                                                                                                                                                        tag
+                                                                                                                                                        <'
+                                                                                                                                                            /a>
+                                                                                                                                                            <br>-
+                                                                                                                                                            <'
+                                                                                                                                                                /body>
+                                                                                                                                                                <br>-
+
+                                                                                                                                                                <'
+                                                                                                                                                                    /html>
+                                                                                                </b><br>-
+                                                                                                In the <'style>
+                                                                                                    block,
+                                                                                                    p and a tag are
+                                                                                                    grouped together so,
+                                                                                                    that both tags will
+                                                                                                    have the same
+                                                                                                    properties.<br>-
+                                                                                                    Summary: Universal
+                                                                                                    Selector(*): Target
+                                                                                                    the entire page.
+                                                                                                    <br>- Element
+                                                                                                    Selector: Target a
+                                                                                                    specific
+                                                                                                    element.<br>- ID
+                                                                                                    Selector(#): Target
+                                                                                                    element with a
+                                                                                                    specific ID. <br>-
+                                                                                                    Class Selector(.):
+                                                                                                    Target element(s)
+                                                                                                    with the same
+                                                                                                    class.<br>- Group
+                                                                                                    Selector: Group
+                                                                                                    elements and target
+                                                                                                    them.
+                </p>
+            </section>
+            <br>
+            <hr><br>
+            <section id="section1.7">
+                <h2>Css Comments</h2>
+                <p>
+                    <br>-
+                    Comments help with documentation and are helpful for the future users who read that code, so that
+                    they can understand it easily.<br>-
+
+                    Comments are ignored by the browser and Comments don't affect the styling or layout.<br>-
+
+                    CSS Comments are enclosed between /* and */.<br><br>
+
+                    ** There are two types of comments in CSS:<br>-
+
+                    <b>Single-line comment:</b><br>-
+                    Single-line comments are contained within one line.<br>- They are useful for short annotations.<br>-
+
+                    Syntax<br>-
+                    selector{<br>-
+                    /* property: value */<br>-
+                    }<br>-
+                    for example:<br>-
+
+                    /* This is a single line commnent */<br>-
+                    p{<br>-
+                    /* color: red */<br>-
+                    }<br>-
+                    here, the comment is between /* and */<br><br>
+
+                    <b>Multi-line comments</b><br>-
+                    Multi-line comments span across multiple lines, making them ideal for detailed explanations or
+                    temporarily disabling blocks of code.<br>-
+
+                    Syntax<br>-
+                    selector{<br>-
+                    /* property1: value1<br>-
+                    property1: value1<br>-
+                    property1: value1 */<br>-
+                    }<br>-
+                    These are similar to single-line comments, but this helps to comment large descriptions, notes,
+                    etc.<br>-
+
+                    for example:<br>-
+
+                    /* This is a
+                    multi line
+                    commment */<br>-
+                    p {<br>-
+                    /* color: red;
+                    background-color: purple; */<br>-
+                    color: purple;<br>-
+                    background-color: red;<br>-
+                    }<br><br>-
+                    Tip: If you are using vs code, you can use `cltr + /` to comment the line.
+                    <br> <br>
+                </p>
+            </section>
+            <hr><br>
+            <section id="section1.8">
+                <h2>CSS Specificity</h2>
+                <p>
+                    CSS Specificity helps determine what style will be applied to the HTML element(s) when there are
+                    overlapping or multiple CSS rules. <br>- 
+
+                    It is a value or weight assigned to a CSS selector.<br>-  The higher the specificity, the more precedence
+                    the selector has.<br>- 
+
+                    Let's consider the following code <br>- 
+<b>
+                    <'html><br> 
+
+                    <'head><br>
+                        <'style><br> 
+                            * {<br> 
+                                color: gray;<br>
+                            }<br> 
+
+                            #title {<br> 
+                                color: red;<br> 
+                            }<br> 
+
+                            .h1 {<br>
+                                color: blue;<br>
+                            }<br> 
+
+                            h1 {<br> 
+                                color: pink;<br> 
+                            }<br> 
+                        <'/style><br> 
+
+                    <'/head><br>
+
+                    <'body><br> 
+                        <'h1 id="title" class="h1" style="color:purple">CodeWithHarry<'/h1><br>
+                    <'/body><br>
+
+                    <'/html><br>-</b><br>
+
+
+                    Here the question is, what color will h1 be assigned to? This is calculated based on the selector's
+                    components which we will discussed in this tutorial.<br>- 
+
+                    The Cascade Algorithm
+                    CSS stands for Cascading Stylesheets.<br>-  The cascade is the algorithm for solving conflicts where
+                    multiple CSS rules apply to an HTML element.<br>-  It's the reason that the text of the button styled with
+                    the above CSS will be purple.<br>- 
+
+                    Understanding the cascade algorithm helps you understand how the browser resolves conflicts like
+                    this. <br>- The cascade algorithm has 4 distinct stages.<br>- 
+
+                    Position and order of appearance: the order in which your CSS rules appear<br>- 
+                    Specificity: an algorithm that determines which CSS selector has the strongest match<br>- 
+                    Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS
+                    from a browser extension, or your authored CSS<br>- 
+                    Importance: some CSS rules are weighted more heavily than others, especially with the !important
+                    rule type
+                    Lets look into all these one by one
+
+                    Effect of Position
+                    If there are two rules that have selectors of identical specificity, the last one to be declared
+                    won.<br>-  In an HTML page, you can add styles in different ways: through a
+                    <'link> tag, a <'style>
+                        tag,
+                        or directly in the element's style attribute.<br>-  If you have one <'link> tag at the top of your page and another at the bottom, the styles from the bottom one will be used.<br>-  The same goes for <'style> tags; the ones lower down on the page take priority.
+                        <br>- 
+                        An inline style attribute with CSS declared in it will override all other CSS,
+                        regardless of its position,
+                        unless a declaration has !important defined.<br>-  If the browser doesn't support a property, it is ignored!
+
+                        Specificity CSS specificity determines which style rules get applied to an element when there are conflicts. <br>- Higher specificity means the style will be used. It's calculated based on a point system involving inline styles, IDs, classes, and tag names.
+                        <br>- 
+
+                        Inline Styles Inline styles have the highest specificity and will always override styles if other selector(s) are also defined. <br>- 
+                        <'html><br>- 
+                            <'head><br>- 
+                                <'style><br>- 
+                                * {<br>- 
+                            color: gray;<br>- 
+                        }<br>- 
+
+                        #title {<br>- 
+                            color: red;<br>- 
+                        }<br>- 
+
+                        .h1 {<br>- 
+                            color: blue;<br>- 
+                        }<br>- 
+
+                        h1 {<br>- 
+                            color: pink;<br>- 
+                        }<br>- 
+                    <'/style><br>- 
+
+                    <'/head><br>- 
+
+                    <'body><br>- 
+                        <'h1 id="title" class="h1" style="color:purple">mr_sattu<'/h1><br>- 
+                    <'/body><br>- 
+
+<'/html><br>- </b>
+
+Here, you can see that the color: purple is applied to the h1 tag.<br><br>
+<b>ID Selector</b><br>- 
+The ID selector also has high specificity but comes after the inline Style specificity. <br>- So, if we have an ID and other
+selectors except the inline style, then the element will take the ID selector properties and values.<br>- 
+<b>
+<'head><br>- 
+    <'style><br>- 
+        * {
+            color: gray;<br>- 
+        }<br>- 
+
+        #title {<br>- 
+            color: red;<br>- 
+        }<br>- 
+
+        .h1 {<br>- 
+            color: blue;<br>- 
+        }<br>- 
+
+        h1 {<br>- 
+            color: pink;<br>- 
+        }<br>- 
+    <'/style><br>- 
+<'/head><br>- 
+
+<'body><br>- 
+    <'h1 id="title" class="h1">CodeWithHarry<'/h1><br>- 
+<'/body><br>- 
+
+<'/html><br>- 
+    </b>
+Here, you can see the color: red is applied to the h1 tag.<br><br>
+
+<b>Class and Attribute Selectors</b><br>- 
+Class selectors and attribute selectors have moderate specificity.<br>-  Suppose the element has a class or attribute selector
+and not an inline style or ID selector, then the element will take properties and values from the class or attribute
+selector.<br>- 
+<b>
+<'head><br>- 
+    <'style><br>- 
+        * {<br>- 
+            color: gray;<br>- 
+
+            .h1 {<br>- 
+                color: pink;<br>- 
+            }<br>- 
+    <'/style><br>- 
+
+<'/head><br>- 
+
+<'body><br>- 
+    <'h1 class="h1">CodeWithHarry<'/h1><br>- 
+<'/body><br>- 
+
+<'/html><br>- 
+
+
+Here, you can see color:pink is applied to the h1 tag.<br><br>
+
+<b>Element Selector:</b><br>- 
+Element selectors like <'p>,
+<'div>, <'a>, etc. have low specificity.<br>- 
+
+        <'head><br>- 
+            <'style><br>- 
+                * {<br>- 
+                    color: gray;<br>- 
+                }<br>- 
+
+                h1 {<br>- 
+                    color: tomato;<br>- 
+                }<br>- 
+            <'/style><br>- 
+
+        <'/head><br>- 
+
+        <'body><br>- 
+            <'h1 class="h1">CodeWithHarry<'/h1><br>- 
+        <'/body><br>- 
+
+        <'/html><br>- 
+        Here, you can see color:tomato is applied to the h1 tag.<br><br>
+
+       <b> Universal Selector:</b><br>- 
+        Universal selectors (*) and combining selectors like not, first-child, and last-child have the lowest
+        specificity.<br>- 
+
+        <'head><br>- 
+            <'style><br>- 
+                * {<br>- 
+            
+                }<br>- 
+            <'/style><br>- 
+
+        <'/head><br>- 
+
+        <'body><br>- 
+            <'h1 class="h1">CodeWithHarry<'/h1><br>- 
+        <'/body><br>- 
+
+        <'/html><br>- 
+     
+
+        Here, you can see color:gray is applied to the h1 tag.
+
+        So, the order of specificity is:
+
+        Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+
+        Specificity Calculation
+        To calculate specificity, assign a value to each part of the selector:
+
+        Universal Selector: 0
+        Element selectors and pseudo-elements: 1
+        Class selectors, attribute selectors, and pseudo-classes: 10
+        ID selectors: 100
+        Inline styles: 1000
+        Then, add up the values of all the parts in the selector.
+
+        Here is an example
+
+        <h1 id="title" class="h1">CodeWithHarry</h1>
+        Here, the specificity value will be 111 because ID has a specificity of 100, the class has a specificity of 10,
+        and the h1 element has a specificity of 1.
+
+        In the case of a specificity tie, the rule that appears last in the CSS is applied.
+
+        Importance
+        The !important flag in CSS is used to give a particular style rule the highest level of importance, overriding
+        any other competing styles. When you add !important to a CSS rule, it will take precedence over other rules
+        affecting the same element, regardless of their specificity. For example, if you have:
+
+        p {
+        color: red !important;
+        }
+
+        p {
+        color: blue;
+        }
+        The text in the <p> element will be red, not blue, because the !important flag makes that rule more important.
+
+            an !important at the end of a CSS value gets a specificity score of 10,000 points. This is the highest
+            specificity that one individual item can get.
+
+            However, it's generally best to use !important sparingly, as it can make debugging and maintaining your
+            stylesheets more complicated. It can override styles in ways that are hard to trace, leading to unexpected
+            results.
+
+            Quick Quiz
+            What will be the specificity value of the following selector:
+
+            a.harryclass.rohan-class[href]:hover {
+            color: red;
+            }
+            Solution
+            To calculate the specificity value of the selector a.harryclass.rohan-class[href]:hover, you can break down
+            its components:
+
+            Element selectors: a contributes 1 point.
+            Class selectors: .harryclass and .rohan-class each contributes 10 points, totaling 20 points.
+            Attribute selector: [href] contributes 10 points.
+            Pseudo-class: :hover adds another 10 points.
+            Add up all these values:
+
+            1 (element) + 20 (classes) + 10 (attribute) + 10 (pseudo-class) = 41.
+
+            So, the specificity value of the selector a.harryclass.rohan-class[href]:hover will be 41.</p>
+        </section>
+</div>
+</div>
+</body>
+
+</html>
